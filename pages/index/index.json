@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "YY直播",
+  "usingComponents": {
+    "yyeva": "yyeva-wechat"
+  }
+}

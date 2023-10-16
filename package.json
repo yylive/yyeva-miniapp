@@ -1,0 +1,72 @@
+{
+  "name": "@yy/yyeva-wechat-show-case",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "maintainers": [
+    {
+      "name": "liudaojie",
+      "email": "liudaojie@yy.com"
+    },
+    {
+      "name": "herunsheng2",
+      "email": "herunsheng2@yy.com"
+    },
+    {
+      "name": "tanridong",
+      "email": "tanridong@yy.com"
+    }
+  ],
+  "eslintConfig": {
+    "extends": [
+      "@yy/swan"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "miniprogram_npm/",
+    ".swan/",
+    ".vscode-swan/",
+    "/dist",
+    "/output",
+    "/test",
+    "**/swan.d.ts",
+    "**/js/lib"
+  ],
+  "prettier": {
+    "overrides": [
+      {
+        "files": [
+          "*.wxml"
+        ],
+        "options": {
+          "parser": "html"
+        }
+      }
+    ],
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "quoteProps": "consistent",
+    "trailingComma": "none",
+    "printWidth": 100
+  },
+  "scripts": {
+    "eslint": "eslint --ext=jsx,ts,tsx ./",
+    "prettier": "prettier --write ./**",
+    "d": "echo 'nothing to build'",
+    "w": "echo 'nothing to watch'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "yyeva-wechat": "1.0.0-beta.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "prettier": "^2.5.1",
+    "miniprogram-api-typings": "^2.8.3-1"
+  }
+}

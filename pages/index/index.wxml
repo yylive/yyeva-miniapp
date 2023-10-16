@@ -1,0 +1,5 @@
+<yyeva class="eplayer" options="{{yyEvaOption}}" bind:onStart="__onEvaStart" bind:onEnd="__onEvaEnd" bind:onStop="__onEvaStop" />
+<view class="ctrl">
+  <button class='btn' bind:tap="__play">播放特效</button>
+  <button class='btn' bind:tap="__clear">清空</button>
+</view>

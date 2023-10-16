@@ -1,0 +1,3 @@
+<canvas wx:if="{{options.videoUrl && isLoad}}" type="webgl" id="{{canvasId}}" class="yyevaCanvas" ></canvas>
+<canvas wx:if="{{options.showVideo && isLoad}}" type="2d" id="{{canvas2dId}}" class="yyevaCanvas2d"></canvas>
+

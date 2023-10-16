@@ -1,0 +1,24 @@
+.page-index {
+  position: relative;
+  min-height: 100vh;
+}
+
+.eplayer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ctrl {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+.btn {
+  flex: 1;
+  margin: 0 10px;
+}

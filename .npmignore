@@ -1,0 +1,12 @@
+.swan
+.vscode-swan
+node_modules/
+src/
+.gitignore
+.prettierignore
+pkginfo.json
+project.swan.json
+rollup.config.js
+tsconfig.json
+yarn.lock
+.DS_Store
